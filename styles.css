@@ -125,3 +125,8 @@ button:hover, button:focus{
     padding: 17.5px 62.5px;
     }
 }
+@media(min-width:1440px){
+    .body{
+        margin: 289px 420px;
+    }
+}
