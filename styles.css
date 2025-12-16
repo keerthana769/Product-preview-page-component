@@ -112,7 +112,9 @@ button:hover, button:focus{
     max-width: 600px;
     }
     body{
-    margin: 286.5px 84px;
+    /* margin: 286.5px 84px; */
+    height: 100vh;
+    align-items: center;
     }
     figure, .content{
     max-width: 300px;
@@ -125,8 +127,8 @@ button:hover, button:focus{
     padding: 17.5px 62.5px;
     }
 }
-@media(min-width:1440px){
+/* @media(min-width:1440px){
     body{
         margin: 289px 420px 284px 420px;
     }
-}
+} */

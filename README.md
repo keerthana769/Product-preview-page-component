@@ -81,6 +81,10 @@ Users should be able to:
 
     A better approach is to: Control width, let height be content-driven.
 
+5. **Section**
+
+    The `<section>` element is used to group related content that forms a distinct part of the page, and it should always have a heading to clearly define its purpose.
+
 ### Continued development
 
 I would like to explore writing styles using a CSS preprocessor such as Sass.
@@ -94,6 +98,4 @@ At the moment, I chose to focus on strengthening my core CSS fundamentals before
 
 - Frontend Mentor - [@keerthana769](https://www.frontendmentor.io/profile/keerthana769)
 - LinkedIn - [@keerthana-gurram](https://www.linkedin.com/in/keerthana-gurram/)
-
-
 
