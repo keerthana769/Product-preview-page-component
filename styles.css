@@ -27,6 +27,7 @@ body{
     background-color: var(--clr-cream);
     /* margin: 80px 12px 172px 13px; */
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 *, *::before, *::after{
     box-sizing: border-box;
