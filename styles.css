@@ -1,0 +1,127 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    /*colors*/
+    --clr-green-500: hsl(158, 36%, 37%);
+    --clr-green-700: hsl(158, 42%, 18%);
+    --clr-black: hsl(212, 21%, 14%);
+    --clr-grey: hsl(228, 12%, 48%);
+    --clr-cream: hsl(30, 38%, 92%);
+    --clr-white: hsl(0, 0%, 100%);
+    /*fonts*/
+    --text-1-f-bold: 900 32px/100% "Fraunces", serif;
+    --text-2-m-bold: 700 14px/110% "Montserrat", sans-serif;
+    --text-3-m-medium: 500 14px/160% "Montserrat", sans-serif;
+    --text-4-m-medium: 500 12px/120% "Montserrat", sans-serif;  /*5px letter spacing*/
+    --text-5-m-medium: 500 13px/120% "Montserrat", sans-serif;
+    /*letter spacing*/
+    --ls-0: 0px;
+    --ls-5:5px;
+}
+
+body{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-cream);
+    margin: 80px 12px 172px 13px;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 350px;
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.post-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.content{
+    padding: 32px;
+}
+.brand{
+    font: var(--text-4-m-medium);
+    color: var(--clr-grey);
+    letter-spacing: var(--ls-5);
+    padding-bottom: 24px;
+}
+h1{
+    font: var(--text-1-f-bold);
+    color: var(--clr-black);
+    letter-spacing: var(--ls-0);
+    padding-bottom: 24px;
+}
+.info{
+    font: var(--text-3-m-medium);
+    letter-spacing: var(--ls-0);
+    color: var(--clr-grey);
+    padding-bottom: 32px;
+}
+.actual-price{
+    font: var(--text-1-f-bold);
+    letter-spacing: var(--ls-0);
+    color: var(--clr-green-500);
+}
+.past-price{
+    font: var(--text-5-m-medium);
+    letter-spacing: var(--ls-0);
+    color: var(--clr-grey);
+    text-decoration: line-through;
+    text-decoration-color: var(--clr-grey);
+}
+button{
+    background-color: var(--clr-green-500);
+    font: var(--text-2-m-bold);
+    letter-spacing: var(--ls-0);
+    color: var(--clr-white);
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+button:hover, button:focus{
+    background-color: var(--clr-green-700);
+    cursor: pointer;
+}
+.icon{
+    padding-right: 8px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+
+/*Tablet & Desktop*/
+
+@media(min-width:768px){
+    .container{
+    flex-direction: row;
+    max-width: 600px;
+    }
+    body{
+    margin: 286.5px 84px;
+    }
+    figure, .content{
+    max-width: 300px;
+    }
+    .post-img{
+    display: block;
+    height: 100%;
+    }
+    button{
+    padding: 17.5px 62.5px;
+    }
+}
