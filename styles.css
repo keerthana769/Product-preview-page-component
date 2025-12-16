@@ -54,7 +54,7 @@ body{
     letter-spacing: var(--ls-5);
     padding-bottom: 24px;
 }
-h1{
+h2{
     font: var(--text-1-f-bold);
     color: var(--clr-black);
     letter-spacing: var(--ls-0);
@@ -126,7 +126,7 @@ button:hover, button:focus{
     }
 }
 @media(min-width:1440px){
-    .body{
-        margin: 289px 420px;
+    body{
+        margin: 289px 420px 284px 420px;
     }
 }
