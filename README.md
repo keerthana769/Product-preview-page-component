@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot%20(343).png)
 
 ### Links
 
-- Solution URL: [https://github.com/keerthana769/Product-preview-page-component/]()
-- Live Site URL: [https://keerthana769.github.io/Product-preview-page-component/]()
+- Solution URL: [https://github.com/keerthana769/Product-preview-page-component/]
+- Live Site URL: [https://keerthana769.github.io/Product-preview-page-component/]
 
 ## My process
 
@@ -62,9 +62,9 @@ Users should be able to:
 
 3. **Responsive images with <picture>**
 
-  - When different image files are provided for mobile and desktop, the <picture> element is the correct approach
-  - Larger screen sources must come first. The <img> element should be last as a fallback
-  - <source> only works inside <picture> (or <audio>/<video>)
+  - When different image files are provided for mobile and desktop, the `<picture>` element is the correct approach
+  - Larger screen sources must come first. The `<img>` element should be last as a fallback
+  - `<source>` only works inside `<picture>` (or `<audio>`/`<video>`)
   ```html
   <picture>
     <source srcset="./assets/image-desktop.jpg" media="(min-width: 768px)">
@@ -74,12 +74,12 @@ Users should be able to:
 
 4. **Avoid fixed heights**
 
-  Using fixed or max heights on content-based layouts can cause:
-  - Text overflow
-  - Clipped buttons
-  - Layout issues when zooming or using accessibility settings
+    Using fixed or max heights on content-based layouts can cause:
+    - Text overflow
+    - Clipped buttons
+    - Layout issues when zooming or using accessibility settings
 
-  A better approach is to: Control width, let height be content-driven.
+    A better approach is to: Control width, let height be content-driven.
 
 ### Continued development
 
