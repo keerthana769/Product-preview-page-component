@@ -123,11 +123,6 @@ button:hover, button:focus{
     height: 100%;
     }
     button{
-    padding: 17.5px 62.5px;
+    padding: 1rem 2rem;
     }
 }
-/* @media(min-width:1440px){
-    body{
-        margin: 289px 420px 284px 420px;
-    }
-} */
